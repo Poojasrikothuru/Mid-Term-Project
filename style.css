@@ -1,0 +1,50 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: 'Gotham Rounded', sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #1a1a1a; /* Dark gray background */
+    color: #fff; /* White text color */
+}
+
+.container {
+    width: 800px;
+    max-width: 80%;
+    background-color: #2b2b2b; /* Slightly lighter gray */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #3498db; /* Blue button color */
+    border: 1px solid #2980b9; /* Darker blue border */
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s, text-shadow 0.3s;
+}
+
+.btn:hover {
+    background-color: #2980b9; /* Slightly darker blue on hover */
+    border-color: #1f618d; /* Darker border on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add box-shadow on hover */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Add text-shadow on hover */
+}

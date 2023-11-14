@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="style.css" rel="stylesheet">
+  <script defer src="script.js"></script>
+  <title>Text Adventure</title>
+</head>
+<style>
+    #game-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    #text {
+      background-color: darkblue; /* Set a background color for better visibility */
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px; /* Optional: Add rounded corners for a nicer look */
+    }
+
+    #text img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+
+    #option-buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .btn {
+      padding: 10px;
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: #45a049;
+    }
+  </style>
+<body>
+  <div class="container">
+    <div id="text">Text</div>
+    <div id="option-buttons" class="btn-grid">
+      <button class="btn">Option 1</button>
+      <button class="btn">Option 2</button>
+      <button class="btn">Option 3</button>
+      <button class="btn">Option 4</button>
+    </div>
+  </div>
+  <footer>
+    <div class="addendum">
+      <h2>Addendum: Development Journey and Creative Choices</h2>
+
+      <p><strong>Introduction</strong></p>
+      <p>Crafting the "Text Adventure" game was a journey of creativity, problem-solving, and iterative development. This addendum delves into the development process, creative decisions, challenges faced, and insights gained throughout the creation of the game using HTML, CSS, and JavaScript.</p>
+
+      <p><strong>Development Process</strong></p>
+      <p><strong>Step 1: Planning</strong><br>
+        The planning phase involved outlining the narrative, mapping out choices, and structuring the flow using flowcharts. Clear visualization of story branches ensured a coherent and engaging player experience.</p>
+
+      <p><strong>Step 2: HTML Foundation</strong><br>
+        The HTML file laid the foundation, structuring the game container, text display, and option buttons. Inclusion of external CSS and JavaScript files set the stage for styling and interactive functionalities.</p>
+
+      <p><strong>Step 3: Styling Choices (CSS)</strong><br>
+        The CSS file played a crucial role in creating an immersive atmosphere. Opting for a dark theme with contrasting button colors aimed to evoke a sense of mystery. The inclusion of hover effects, like box-shadow and text-shadow, added depth and interactivity.</p>
+
+      <p><strong>Step 4: Interactive Logic (JavaScript)</strong><br>
+        JavaScript handled the game's logic and interactions. Dynamic element creation and event listeners facilitated smooth transitions between story nodes and choices. Effective state management tracked player progress and determined story outcomes.</p>
+
+      <p><strong>Step 5: Testing Iterations</strong><br>
+        Extensive testing was conducted at each stage to ensure smooth functionality. Addressing bugs and refining the user experience were iterative processes. Testing on various devices ensured a responsive design for diverse user interactions.</p>
+
+      <p><strong>Creative Choices and Challenges</strong></p>
+      <p><strong>Crafting a Dynamic Narrative</strong><br>
+        The narrative was designed to offer diverse choices, each influencing the storyline and leading to multiple endings. This choice-rich structure aimed to captivate players and encourage replayability, providing a personalized adventure.</p>
+
+      <p><strong>Stylistic Immersion</strong><br>
+        The decision to use a dark background and vibrant button colors sought to immerse players in a mysterious atmosphere. Hover effects, carefully chosen to enhance visual appeal, aimed to make the game visually engaging.</p>
+
+      <p><strong>Challenges Faced</strong></p>
+      <p><strong>State Management:</strong> Balancing and managing game states for different story outcomes presented a challenge. Addressing this required a meticulous approach to avoid inconsistencies.</p>
+      <p><strong>Responsive Design:</strong> Adapting the game layout for various screen sizes posed challenges. Ensuring a seamless experience on both desktop and mobile devices required careful consideration and testing.</p>
+
+      <p><strong>Insights Gained</strong></p>
+      <p><strong>Narrative Complexity vs. User Engagement</strong><br>
+        Balancing the complexity of the narrative with user-friendly design emerged as a key insight. Striking this balance allowed for an immersive story while maintaining an accessible and enjoyable user experience.</p>
+
+      <p><strong>Iterative Development and User Feedback</strong><br>
+        The iterative nature of development, combined with user feedback, played a vital role in refining the game. Regular testing and feedback loops provided valuable insights, contributing to the game's overall quality.</p>
+
+      <p><strong>Conclusion</strong></p>
+      <p>The development of the "Text Adventure" game was a dynamic process involving creative choices, problem-solving, and a commitment to user engagement. The final product reflects a synthesis of planning, design, and iterative development, providing players with an interactive and captivating experience.</p>
+    </div>
+  </footer>
+</body>
+</html>
